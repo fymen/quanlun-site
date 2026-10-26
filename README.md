@@ -1,6 +1,6 @@
 # 不正经拳论 · 书籍网站
 
-基于 Hugo 与 PaperMod 的独立网站。包含定制书籍宣传首页、三篇精选试读、全书导读、作者介绍、站内搜索与 Netlify 配置。已部署 Cloudflare Pages 测试站：https://buzhengjingquanlun-test.pages.dev/ 。源码托管于 https://github.com/fymen/quanlun-site ，未部署到 Netlify。
+基于 Hugo 与 PaperMod 的独立网站。包含定制书籍宣传首页、三篇精选试读、全书导读、作者介绍、站内搜索与 Netlify 配置。Cloudflare Pages 已连接 GitHub：`fymen/quanlun-site`，生产分支 `main`，入口 https://quanlun-site.pages.dev/ 。源码托管于 https://github.com/fymen/quanlun-site ，未部署到 Netlify。
 
 ## 本地使用
 
@@ -63,10 +63,10 @@ Pandoc 不在 PATH 时，使用 `PANDOC=/path/to/pandoc python3 scripts/sync-sam
 
 PaperMod 依 MIT 许可使用，许可证保留于 `themes/PaperMod/LICENSE`。书稿、Logo、封面与插图不因主题的 MIT 授权而自动转为 MIT，仍按各自权利归属处理。
 
-## Cloudflare 测试站
+## Cloudflare Pages
 
-测试站：https://buzhengjingquanlun-test.pages.dev/ 。部署与更新方法见 `CLOUDFLARE.md`，最近一次在线检查记录见 `deployment-cloudflare.json`。正式域名配置保留，当前尚未绑定到此测试项目。
+Git 自动部署入口：https://quanlun-site.pages.dev/ 。配置与更新方法见 `CLOUDFLARE.md`。原直接上传测试站 https://buzhengjingquanlun-test.pages.dev/ 保留，`deployment-cloudflare.json` 是该旧测试站的检查记录。正式域名配置保留，目前尚未绑定。
 
 ## 源码仓库
 
-https://github.com/fymen/quanlun-site ，主分支为 `main`。Cloudflare 当前测试项目采用直接上传，Git 推送本身不会自动触发网站部署。
+https://github.com/fymen/quanlun-site ，主分支为 `main`。Cloudflare Pages 的 `quanlun-site` 项目已连接此仓库；推送 `main` 将自动构建并部署，其他分支生成预览。

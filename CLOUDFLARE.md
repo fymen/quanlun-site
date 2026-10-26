@@ -1,28 +1,29 @@
-# Cloudflare Pages 测试部署
+# Cloudflare Pages · GitHub 自动部署
 
-当前项目适合静态部署，不需要 Pages Functions。
+- GitHub：https://github.com/fymen/quanlun-site
+- Cloudflare 项目：`quanlun-site`
+- 生产分支：`main`
+- 网站入口：https://quanlun-site.pages.dev/
 
-## 本地直接上传
+## 发布流程
 
-```sh
-hugo --minify --baseURL https://YOUR-PROJECT.pages.dev/
-npx wrangler@4 login --scopes account:read user:read pages:write
-npx wrangler@4 pages project create YOUR-PROJECT --production-branch main --force
-npx wrangler@4 pages deploy public --project-name YOUR-PROJECT --branch main --commit-dirty=true
-```
+提交网站修改并推送 `main` 后，Cloudflare 从 GitHub 拉取对应提交，执行 Hugo 构建并发布。其他分支自动生成预览。初次发布及后续发布均应以 Cloudflare 构建结果为准。
 
-仅上传构建目录 `public/`；不要上传仓库或 `themes/`。站点仍未配备支付与完整版下载。测试时不修改 `hugo.toml` 中作者已配置的正式域名。
+## 已配置的构建参数
 
-## 后续 Git 自动部署
+- 构建命令：`bash scripts/build.sh`
+- 输出目录：`public`
+- 根目录：仓库根目录
+- `HUGO_VERSION=0.162.1`
+- `HUGO_ENV=production`（预览环境为 `preview`）
+- `TZ=Asia/Shanghai`
 
-Cloudflare Pages 控制台导入 Git 仓库，构建命令设置 `bash scripts/build.sh`，输出目录 `public`；环境变量设置 `HUGO_VERSION=0.162.1`、`HUGO_ENV=production`、`TZ=Asia/Shanghai`。脚本读取平台 `CF_PAGES_URL`；非 main 分支自动设置预览抓取策略。若生产分支改名，应同步脚本中的分支判定。
+构建脚本使用 Cloudflare 的 `CF_PAGES_URL` 设置当前部署网址；`hugo.toml` 中的正式域名保留。非 `main` 分支设置预览环境并通过 robots 禁止抓取。`static/_headers` 提供响应头配置，`wrangler.jsonc` 声明 Pages 静态输出。
 
-Cloudflare 的直接上传项目不能就地切换成 Git 集成项目。测试使用单独项目，正式自动部署可以另建项目，域名绑定后应重新核对 canonical 与分享图片地址。
+## 原测试站
 
-`static/_headers` 提供 Cloudflare Pages 的响应头，Netlify 配置继续保留。切换托管不会改变书稿源文件。
+`buzhengjingquanlun-test` 项目采用直接上传，入口 https://buzhengjingquanlun-test.pages.dev/ ，目前保留。它不能原地切换为 Git 集成，因此另建了当前的 `quanlun-site` 项目。
 
-## 当前测试项目
+## 正式域名
 
-项目名称：`buzhengjingquanlun-test`。测试入口：https://buzhengjingquanlun-test.pages.dev/ 。实际部署结果以 Cloudflare 返回及访问验证为准。
-
-新版 Wrangler 创建项目时可能自动转到 Workers，因此创建直接上传项目使用 `--force`；已有 Pages 项目正常上传无需该参数。`wrangler.jsonc` 已明确配置为 Pages 静态输出，避免误用 `npx hugo` 自动构建。
+正式域名暂未绑定到新项目。绑定完成后，应按正式域名调整生产构建网址，并检查 canonical、分享图片及站点地图。
