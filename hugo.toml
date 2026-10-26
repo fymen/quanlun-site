@@ -10,7 +10,7 @@ pagerSize = 8
 [params]
 env = 'production'
 title = '不正经拳论'
-description = '风茂的内家拳研习心得。从空、静、中出发，结合图解与习拳体会，讨论孙氏内家拳。'
+description = '内家拳研习心得。从空、静出发，深入探讨内家拳的“中”，以及这个“中”在拳中的应用。'
 author = '风茂'
 defaultTheme = 'light'
 disableThemeToggle = true
