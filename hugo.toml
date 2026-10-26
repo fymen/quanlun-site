@@ -59,7 +59,7 @@ weight = 40
 [params.purchase]
 platform = "淘宝"
 store = "不正经拳铺"
-url = "https://item.taobao.com/item.htm?abbucket=0&id=1091469715447&mi_id=0000EDyGgsd4hHcFvkdSPFLMCY52hPCXI6uof2DZMVwmtEM&ns=1&spm=a21xtw.29978516.product_shelf.1.51d43c25TrnYwO&xxc=taobaoSearch"
+url = "https://e.tb.cn/h.jV04F9ZFZ6H2FxQ?tk=nowXTC5ebyZ HU287"
 
 [[menus.main]]
 name = "购书"
