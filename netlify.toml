@@ -1,0 +1,22 @@
+[build]
+command = "bash scripts/build.sh"
+publish = "public"
+[build.environment]
+HUGO_VERSION = "0.162.1"
+HUGO_ENV = "production"
+TZ = "Asia/Shanghai"
+[[headers]]
+for = "/*"
+[headers.values]
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+[[headers]]
+for = "/images/*"
+[headers.values]
+Cache-Control = "public, max-age=86400"
+[context.deploy-preview]
+[context.deploy-preview.environment]
+HUGO_ENV = "preview"
+[context.branch-deploy]
+[context.branch-deploy.environment]
+HUGO_ENV = "preview"

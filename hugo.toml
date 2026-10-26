@@ -1,0 +1,57 @@
+baseURL = 'https://www.buzhengjingquanlun.com/'
+locale = 'zh-CN'
+defaultContentLanguage = 'zh'
+title = '不正经拳论'
+theme = 'PaperMod'
+hasCJKLanguage = true
+enableRobotsTXT = true
+[pagination]
+pagerSize = 8
+[params]
+env = 'production'
+title = '不正经拳论'
+description = '风茂的内家拳研习心得。从空、静、中出发，结合图解与习拳体会，讨论孙氏内家拳。'
+author = '风茂'
+defaultTheme = 'light'
+disableThemeToggle = true
+ShowReadingTime = true
+ShowWordCount = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowShareButtons = false
+ShowToc = true
+TocOpen = false
+mainSections = ['read', 'articles']
+disableSpecial1stPost = true
+images = ['images/book-cover.png']
+[params.assets]
+favicon = '/images/logo.png'
+[params.label]
+text = '不正经拳论'
+icon = '/images/logo.png'
+iconHeight = 30
+[params.fuseOpts]
+ignoreLocation = true
+threshold = 0.35
+keys = ['title', 'summary', 'content']
+[outputs]
+home = ['HTML', 'RSS', 'JSON']
+[markup.goldmark.renderer]
+unsafe = false
+[[menus.main]]
+name = '精选试读'
+pageRef = '/read'
+weight = 10
+[[menus.main]]
+name = '全书导读'
+pageRef = '/book'
+weight = 20
+[[menus.main]]
+name = '关于作者'
+pageRef = '/about'
+weight = 30
+[[menus.main]]
+name = '搜索'
+pageRef = '/search'
+weight = 40

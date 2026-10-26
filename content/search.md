@@ -1,0 +1,6 @@
+---
+title: "搜索本书网站"
+layout: "search"
+summary: "搜索精选试读、导读和作者介绍。"
+placeholder: "搜索空、静、中、平衡……"
+---

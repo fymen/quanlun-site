@@ -1,0 +1,23 @@
+{{- define "main" -}}
+<div class="book-home">
+<section class="book-hero" aria-labelledby="hero-title">
+  <div class="hero-copy"><p class="eyebrow">风茂 · 内家拳研习心得</p>
+    <h1 id="hero-title">不正经拳论</h1>
+    <p class="hero-question">拳架练了不少，<br>拳理仍有疑惑？</p>
+    <p class="hero-description">从“空、静、中”出发，将拳谱中的文字与习拳中的体会联系起来。为练过拳、仍想问个明白的人而写。</p>
+    <div class="book-actions"><a class="book-button" href="{{ "read/" | relURL }}">阅读精选试读 <span aria-hidden="true">↗</span></a><a class="book-link" href="{{ "book/" | relURL }}">了解全书 <span aria-hidden="true">→</span></a></div>
+    <p class="hero-note">先读几篇，再判断这本书是否适合你。</p>
+  </div>
+  <div class="hero-book"><div class="cover-wrap"><img src="{{ "images/book-cover.png" | relURL }}" width="700" height="990" alt="《不正经拳论》书封：内家拳研习心得，风茂著" fetchpriority="high"></div><p>在身为轴，用心若镜</p></div>
+</section>
+<section class="question-section" aria-labelledby="questions-title"><div class="section-heading"><p class="eyebrow">从问题开始</p><h2 id="questions-title">文字认识，身体却未必明白。</h2></div>
+<div class="questions"><p><span>01</span>老师说要“松”，为什么一松就散？</p><p><span>02</span>“空空静静”，究竟在练什么？</p><p><span>03</span>三害九要背熟了，怎样落实到身体？</p></div>
+<p class="section-note">本书尝试用直白的语言，整理这些问题背后的拳理与心法。前人论述、个人体会和解释性比喻，需要放在各自的语境中阅读。</p></section>
+<section class="ideas-section" aria-labelledby="ideas-title"><div class="section-heading"><p class="eyebrow">一条阅读主线</p><h2 id="ideas-title">从空与静，读到身上的“中”。</h2></div>
+<div class="ideas"><article><span class="idea-character" aria-hidden="true">空</span><h3>放下多余的控制</h3><p>以“空空静静”为起点，讨论作者如何理解身体的整体联系与心神的觉察。</p><a class="book-link" href="{{ "read/kongjing/" | relURL }}">读《空空静静》 →</a></article><article><span class="idea-character" aria-hidden="true">中</span><h3>寻找恰到好处的状态</h3><p>从“无过无不及”的体会进入中和之道，理解书中反复出现的“临界态”。</p><a class="book-link" href="{{ "read/zhonghe/" | relURL }}">读《中和之道》 →</a></article><article><span class="idea-character" aria-hidden="true">衡</span><h3>重新观察自身平衡</h3><p>借踩钢丝的比喻，进入作者对无极式与自动平衡的讨论。</p><a class="book-link" href="{{ "read/zidongpingheng/" | relURL }}">读《自动平衡》 →</a></article></div></section>
+<section class="excerpt-section" aria-labelledby="excerpt-title"><div class="excerpt-image"><img src="{{ "images/onion-true-self.png" | relURL }}" alt="书中配图：像剥洋葱一样层层放下，真我渐显" width="800" height="800" loading="lazy"></div><div class="excerpt-copy"><p class="eyebrow">翻开一页</p><h2 id="excerpt-title">练拳，也是在学习放下。</h2><blockquote>“由于我们都习惯了加强控制，放弃对身体的主观控制并不是一件容易的事。我们要不断地意识到自己的控制，再放掉。”</blockquote><p class="excerpt-source">节选自《空空静静》</p><a class="book-link" href="{{ "read/kongjing/" | relURL }}">继续阅读这一篇 →</a></div></section>
+<section class="contents-section" aria-labelledby="contents-title"><div class="section-heading"><p class="eyebrow">全书脉络</p><h2 id="contents-title">由拳术入手，回到具体问题。</h2><p>从形意拳的次第，到内劲与心法，再到练习中的疑问。</p></div><ol class="chapter-list">{{ range $i, $name := slice "形意拳" "内劲今解" "孙门心法" "呼吸之道" "拳术境界" "江湖杂谈" "实践篇" }}<li><span>{{ printf "%02d" (add $i 1) }}</span>{{ $name }}</li>{{ end }}</ol><a class="book-link" href="{{ "book/" | relURL }}">查看全书导读 →</a></section>
+<section class="author-section" aria-labelledby="author-title"><p class="eyebrow">写在书前</p><h2 id="author-title">把曾经困住自己的问题，<br>一点一点讲清楚。</h2><p>风茂将个人习拳体会整理成书，尝试在前辈拳谱的基础上，以更直白的语言讨论内家拳的拳理与心法。</p><a class="book-link" href="{{ "about/" | relURL }}">阅读写作缘起 →</a></section>
+<section class="closing-section" aria-labelledby="closing-title"><p class="eyebrow">从这里开始</p><h2 id="closing-title">不妨，先读一篇。</h2><p>三篇精选试读，呈现这本书的语言、图解和思考方式。</p><a class="book-button" href="{{ "read/" | relURL }}">进入精选试读 <span aria-hidden="true">→</span></a></section>
+</div>
+{{- end -}}

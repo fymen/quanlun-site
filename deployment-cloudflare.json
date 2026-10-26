@@ -1,0 +1,48 @@
+{
+  "project": "buzhengjingquanlun-test",
+  "url": "https://buzhengjingquanlun-test.pages.dev/",
+  "deployment_url": "https://693218cb.buzhengjingquanlun-test.pages.dev",
+  "verified_at": "2026-10-26T04:54:28.472296+00:00",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 10568
+    },
+    {
+      "path": "/read/",
+      "status": 200,
+      "bytes": 7717
+    },
+    {
+      "path": "/read/kongjing/",
+      "status": 200,
+      "bytes": 21610
+    },
+    {
+      "path": "/read/zhonghe/",
+      "status": 200,
+      "bytes": 14543
+    },
+    {
+      "path": "/read/zidongpingheng/",
+      "status": 200,
+      "bytes": 12771
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "bytes": 6982
+    },
+    {
+      "path": "/index.json",
+      "status": 200,
+      "bytes": 15927
+    },
+    {
+      "path": "/images/book-cover.png",
+      "status": 200,
+      "bytes": 33784
+    }
+  ]
+}
