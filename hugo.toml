@@ -65,3 +65,11 @@ url = "https://e.tb.cn/h.jV04F9ZFZ6H2FxQ?tk=nowXTC5ebyZ HU287"
 name = "购书"
 url = "/#purchase"
 weight = 25
+
+[params.contact]
+douyin_name = "不正经拳论"
+douyin_id = "52017837517"
+douyin_qr = "/images/id_douyin.jpg"
+wechat_name = "不正经拳论"
+wechat_qr = "/images/id_wechat.jpg"
+email = "zuijiuru@gmail.com"

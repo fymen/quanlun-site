@@ -1,0 +1,6 @@
+{{- $contact := site.Params.contact -}}
+<div class="author-contacts">
+  <article class="contact-card"><h3>抖音</h3><p class="contact-name">{{ $contact.douyin_name }}</p><p class="contact-account">抖音号：{{ $contact.douyin_id }}</p><a class="contact-qr" href="{{ $contact.douyin_qr | relURL }}" target="_blank" rel="noopener noreferrer" aria-label="查看抖音二维码大图"><img src="{{ $contact.douyin_qr | relURL }}" alt="抖音不正经拳论二维码，抖音号 52017837517" width="844" height="841" loading="lazy"></a><p class="contact-hint">用抖音扫码，或搜索抖音号。</p></article>
+  <article class="contact-card"><h3>微信公众号</h3><p class="contact-name">{{ $contact.wechat_name }}</p><p class="contact-account">分享拳理与研习心得</p><a class="contact-qr" href="{{ $contact.wechat_qr | relURL }}" target="_blank" rel="noopener noreferrer" aria-label="查看公众号二维码大图"><img src="{{ $contact.wechat_qr | relURL }}" alt="微信公众号不正经拳论二维码" width="716" height="832" loading="lazy"></a><p class="contact-hint">用微信扫码，关注公众号。</p></article>
+  <article class="contact-card contact-email"><h3>邮箱</h3><p class="contact-account">书稿反馈与交流</p>{{ with $contact.email }}<a class="contact-email-link" href="mailto:{{ . }}">{{ . }}</a>{{ else }}<p class="contact-pending">邮箱待补充</p>{{ end }}<p class="contact-hint">欢迎提出阅读中的疑问与建议。</p></article>
+</div>

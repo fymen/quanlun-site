@@ -25,3 +25,7 @@ ShowToc: false
 本书以拳理与心法为主。具体拳架、拳式的学习还请结合线下老师指导及前辈拳谱。
 
 [阅读精选试读 →](/read/)
+
+## 联系作者 {#contact}
+
+{{< author_contacts >}}

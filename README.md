@@ -74,3 +74,7 @@ https://github.com/fymen/quanlun-site ，主分支为 `main`。Cloudflare Pages 
 ## 购书链接
 
 首页购书区与全书导读共用 `hugo.toml` 中的 `[params.purchase]` 配置。店铺为淘宝“不正经拳铺”，`url = ""` 暂留空时显示不可点击的待补充状态；填入真实店铺 URL 后自动显示跳转按钮。
+
+## 作者联系方式
+
+作者页使用 `[params.contact]` 配置及 `author_contacts.html` 局部模板，首页不单独展示联系方式。抖音与公众号二维码复用书末读者服务素材。邮箱由作者确认后填写 `email`；空值显示待补充，不从 Git 信息推断公开邮箱。
