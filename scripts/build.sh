@@ -4,7 +4,7 @@ cd -- "$(dirname -- "$0")/.."
 args=(--gc --minify)
 # Cloudflare Pages 的生产域名以 CF_PAGES_URL 为准，不覆盖 Hugo 源配置。
 if [[ "${CF_PAGES:-}" == 1 ]]; then
-  args+=(--baseURL "${CF_PAGES_URL:?Cloudflare Pages URL is required}/")
+  args+=(--baseURL "www.buzhengjingquanlun.com")
   if [[ "${CF_PAGES_BRANCH:-main}" != main ]]; then
     export HUGO_ENV=preview
   fi
