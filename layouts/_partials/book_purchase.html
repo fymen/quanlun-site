@@ -1,0 +1,11 @@
+{{- $purchase := site.Params.purchase -}}
+<div class="purchase-details">
+  <p class="purchase-store">{{ $purchase.platform }}店铺 <strong>{{ $purchase.store }}</strong></p>
+  <p class="purchase-description">购书请认准“不正经拳铺”。</p>
+  {{- with $purchase.url }}
+  <a class="book-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">前往淘宝购书 <span aria-hidden="true">↗</span></a>
+  {{- else }}
+  <button class="book-button purchase-pending" type="button" disabled aria-describedby="purchase-status">购买链接待补充</button>
+  <p class="purchase-status" id="purchase-status">淘宝店铺链接将在此更新。</p>
+  {{- end }}
+</div>

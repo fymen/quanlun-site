@@ -70,3 +70,7 @@ Git 自动部署入口：https://quanlun-site.pages.dev/ 。配置与更新方�
 ## 源码仓库
 
 https://github.com/fymen/quanlun-site ，主分支为 `main`。Cloudflare Pages 的 `quanlun-site` 项目已连接此仓库；推送 `main` 将自动构建并部署，其他分支生成预览。
+
+## 购书链接
+
+首页购书区与全书导读共用 `hugo.toml` 中的 `[params.purchase]` 配置。店铺为淘宝“不正经拳铺”，`url = ""` 暂留空时显示不可点击的待补充状态；填入真实店铺 URL 后自动显示跳转按钮。

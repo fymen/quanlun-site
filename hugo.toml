@@ -55,3 +55,13 @@ weight = 30
 name = '搜索'
 pageRef = '/search'
 weight = 40
+
+[params.purchase]
+platform = "淘宝"
+store = "不正经拳铺"
+url = "https://item.taobao.com/item.htm?abbucket=0&id=1091469715447&mi_id=0000EDyGgsd4hHcFvkdSPFLMCY52hPCXI6uof2DZMVwmtEM&ns=1&spm=a21xtw.29978516.product_shelf.1.51d43c25TrnYwO&xxc=taobaoSearch"
+
+[[menus.main]]
+name = "购书"
+url = "/#purchase"
+weight = 25
