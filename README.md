@@ -45,7 +45,7 @@ python3 scripts/sync-samples.py --book-root ../martial_art
 bash scripts/build.sh
 ```
 
-Pandoc 不在 PATH 时，使用 `PANDOC=/path/to/pandoc python3 scripts/sync-samples.py`。同步脚本只处理明确列出的三篇：空空静静、中和之道、自动平衡；保留正文与脚注，移除印刷专用指令并复制用到的图片。每次同步后应检查脚注、图片及正文是否与书稿一致。
+Pandoc 不在 PATH 时，使用 `PANDOC=/path/to/pandoc python3 scripts/sync-samples.py`。同步脚本只处理明确列出的三篇：空空静静、中和之道、先天真一之炁；保留正文与脚注，移除印刷专用指令并复制用到的图片。每次同步后应检查脚注、图片及正文是否与书稿一致。
 
 首页引用与导读为编辑文案，不会自动覆盖；书稿有重大变更时应人工复核这些文案。封面取自建立网站时本书 PDF 的第一页；书封变更后需单独更新。
 
