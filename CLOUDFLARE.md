@@ -18,7 +18,7 @@
 - `HUGO_ENV=production`（预览环境为 `preview`）
 - `TZ=Asia/Shanghai`
 
-构建脚本使用 Cloudflare 的 `CF_PAGES_URL` 设置当前部署网址；`hugo.toml` 中的正式域名保留。非 `main` 分支设置预览环境并通过 robots 禁止抓取。`static/_headers` 提供响应头配置，`wrangler.jsonc` 声明 Pages 静态输出。
+构建脚本使用 Cloudflare 的 `CF_PAGES_URL` 设置当前部署网址；`hugo.toml` 中的正式域名保留。非 `main` 分支设置预览环境并通过 robots 禁止抓取。`static/_headers` 提供响应头配置。Git 构建使用 Pages 平台环境变量；根目录不放置会覆盖平台环境变量的 `wrangler.jsonc`。直接上传配置仅作为 `wrangler.direct-upload.example.jsonc` 保存。
 
 ## 原测试站
 
