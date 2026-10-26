@@ -61,6 +61,10 @@ platform = "淘宝"
 store = "不正经拳铺"
 url = "https://e.tb.cn/h.jV04F9ZFZ6H2FxQ?tk=nowXTC5ebyZ HU287"
 
+[params.purchase.xianyu]
+platform = "闲鱼"
+url = "https://m.tb.cn/h.jeaDIyP?tk=hF3LTChLJQU CZ321"
+
 [[menus.main]]
 name = "购书"
 url = "/#purchase"

@@ -73,7 +73,7 @@ https://github.com/fymen/quanlun-site ，主分支为 `main`。Cloudflare Pages 
 
 ## 购书链接
 
-首页购书区与全书导读共用 `hugo.toml` 中的 `[params.purchase]` 配置。店铺为淘宝“不正经拳铺”，`url = ""` 暂留空时显示不可点击的待补充状态；填入真实店铺 URL 后自动显示跳转按钮。
+首页购书区与全书导读共用 `hugo.toml` 中的购书配置：`[params.purchase]` 为淘宝“不正经拳铺”，`[params.purchase.xianyu]` 为闲鱼入口。对应的 `url = ""` 留空时显示不可点击的待补充状态；填入真实店铺 URL 后自动显示跳转按钮。
 
 ## 作者联系方式
 
