@@ -45,7 +45,7 @@ python3 scripts/sync-samples.py --book-root ../martial_art
 bash scripts/build.sh
 ```
 
-Pandoc 不在 PATH 时，使用 `PANDOC=/path/to/pandoc python3 scripts/sync-samples.py`。同步脚本只处理明确列出的三篇：空空静静、中和之道、先天真一之炁；保留正文与脚注，移除印刷专用指令并复制用到的图片。每次同步后应检查脚注、图片及正文是否与书稿一致。
+Pandoc 不在 PATH 时，使用 `PANDOC=/path/to/pandoc python3 scripts/sync-samples.py`。单独同步《呼吸互含气住脉停》可运行 `python3 scripts/sync-samples.py --only breath_gap`；单独同步《要做神仙需练劈拳》使用 `--only piquan_quanjia`。同步脚本保留五篇的同步能力：空空静静、中和之道、先天真一之炁、呼吸互含气住脉停、要做神仙需练劈拳；保留正文与脚注，移除印刷专用指令并复制用到的图片。当前仅公开空空静静、呼吸互含气住脉停、要做神仙需练劈拳；中和之道、先天真一之炁保留为草稿，同步时自动保持 `draft = true`，常规构建不生成其页面、搜索索引或旧地址别名。每次同步后应检查脚注、图片及正文是否与书稿一致。
 
 首页引用与导读为编辑文案，不会自动覆盖；书稿有重大变更时应人工复核这些文案。封面取自建立网站时本书 PDF 的第一页；书封变更后需单独更新。
 

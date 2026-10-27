@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""从 Org 书稿同步明确选择的三篇试读，不发布完整版。"""
+"""从 Org 书稿同步明确选择的试读篇章，不发布完整版。"""
 import argparse
 import json
 import os
@@ -9,10 +9,13 @@ import shutil
 import subprocess
 
 SITE = Path(__file__).resolve().parents[1]
+PUBLIC_SAMPLES = {'kongjing', 'breath_gap', 'piquan_quanjia'}
 SAMPLES = [
     ('kongjing', '空空静静', '从整体受力与心神觉察，进入作者对“空”和“静”的讨论。', 10),
     ('zhonghe', '中和之道', '从“无过无不及”与“临界态”的体会，理解书中的中和之道。', 20),
     ('yiqi', '先天真一之炁', '从伸懒腰、顺伸逆缩与日用体会，理解作者所说的中和之气。', 30),
+    ('breath_gap', '呼吸互含气住脉停', '从内外呼吸与“气口”，理解作者对“呼吸互含，气住脉停”的解释。', 40),
+    ('piquan_quanjia', '要做神仙需练劈拳', '从起钻落翻与以外带内，理解作者对孙氏劈拳拳架与练法的讨论。', 50),
 ]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--book-root', type=Path, default=SITE.parent / 'martial_art')
@@ -54,6 +57,8 @@ for slug, title, summary, weight in SAMPLES:
     text = re.sub(r'(!\[[^\]]*\]\([^\n]+?\))\{[^\n]*\}', r'\1', text)
     text = re.sub(r'(?m)^\[([^\]]+)\]\{[^\n]*\}$', r'\1', text)
     front = {'title':title, 'description':summary, 'summary':summary, 'weight':weight, 'ShowToc':False}
+    if slug not in PUBLIC_SAMPLES:
+        front['draft'] = True
     if slug == 'yiqi':
         front['aliases'] = ['/read/zidongpingheng/']
     notice = '> **试读说明**：选自《不正经拳论》，风茂著。下文保留作者的论述与个人体会。\n\n'
