@@ -51,16 +51,14 @@ for slug, title, summary, weight in SAMPLES:
         used.append(name)
         return '[[/images/' + name + ']]'
     original = re.sub(r'\[\[file:img/([^\]]+)\]\]', image_link, original)
-    result = subprocess.run([pandoc, '--from=org', '--to=markdown', '--wrap=none'], input=original, text=True, capture_output=True, check=True)
-    text = result.stdout.replace("file:///images/", "/images/")
-    # Pandoc 图片属性改为普通 Markdown，便于 Hugo Goldmark 解析。
-    text = re.sub(r'(!\[[^\]]*\]\([^\n]+?\))\{[^\n]*\}', r'\1', text)
-    text = re.sub(r'(?m)^\[([^\]]+)\]\{[^\n]*\}$', r'\1', text)
+    # 仍由 Pandoc 过滤未刊注释并规范脚注，输出保留 Org 格式。
+    result = subprocess.run([pandoc, '--from=org', '--to=org', '--wrap=none'], input=original, text=True, capture_output=True, check=True)
+    text = result.stdout.replace("file:///images/", "/images/").replace("file:/images/", "/images/")
     front = {'title':title, 'description':summary, 'summary':summary, 'weight':weight, 'ShowToc':False}
     if slug not in PUBLIC_SAMPLES:
         front['draft'] = True
     if slug == 'yiqi':
         front['aliases'] = ['/read/zidongpingheng/']
-    notice = '> **试读说明**：选自《不正经拳论》，风茂著。下文保留作者的论述与个人体会。\n\n'
-    (SITE/'content'/'read'/(slug+'.md')).write_text(json.dumps(front, ensure_ascii=False, indent=2)+'\n\n'+notice+text)
+    notice = '#+begin_quote\n*试读说明* ：选自《不正经拳论》，风茂著。下文保留作者的论述与个人体会。\n#+end_quote\n\n'
+    (SITE/'content'/'read'/(slug+'.org')).write_text(json.dumps(front, ensure_ascii=False, indent=2)+'\n\n'+notice+text)
     print('已同步：'+title+'（图片 '+str(len(used))+' 张）')
