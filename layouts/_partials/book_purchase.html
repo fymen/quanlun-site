@@ -4,7 +4,7 @@
   <div class="purchase-channel">
   <p class="purchase-store">{{ $store.platform }}店铺{{ with $store.store }} <strong>{{ . }}</strong>{{ end }}</p>
   {{- with $store.store }}
-  <p class="purchase-description">购书请认准“{{ . }}”。</p>
+  <p class="purchase-description">购书请认准“{{ . }}”。有需要的话，可联系作者加入电子书专属讨论群和小伙伴们畅聊拳术，也可及时获取后续修订信息。</p>
   {{- end }}
   {{- with $store.url }}
   <a class="book-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">前往{{ $store.platform }}购书 <span aria-hidden="true">↗</span></a>
