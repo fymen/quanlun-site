@@ -1,0 +1,239 @@
+{
+  "hero_byline": {
+    "other": "Feng Mao · Reflections on the Internal Martial Arts"
+  },
+  "book_title": {
+    "other": "An Unconventional Treatise on Martial Arts"
+  },
+  "hero_question": {
+    "other": "Years of practice, yet the internal arts still feel out of reach?"
+  },
+  "hero_description": {
+    "other": "Starting with emptiness and stillness, this book explores the idea of zhong, or centeredness, in the internal arts. It explains how the old masters’ teachings take shape in practice, step by step."
+  },
+  "read_samples": {
+    "other": "Read the samples"
+  },
+  "about_book": {
+    "other": "Explore the book"
+  },
+  "hero_note": {
+    "other": "Read a few chapters and see whether this book speaks to you."
+  },
+  "axis_mirror": {
+    "other": "Let the body be an axis; let the mind be a mirror."
+  },
+  "questions_eyebrow": {
+    "other": "Begin with a question"
+  },
+  "questions_title": {
+    "other": "The internal arts have much to offer. Where do you begin?"
+  },
+  "question_one": {
+    "other": "What do “pre-heaven” and “post-heaven” mean in the internal arts, and how can they become one?"
+  },
+  "question_two": {
+    "other": "How can “following nature, without adding the slightest muscular effort” produce the strength and speed to match the external arts?"
+  },
+  "question_three": {
+    "other": "The old masters speak of returning to emptiness. What do “empty” and “nothing” mean in practice, and how do we reach them?"
+  },
+  "questions_note": {
+    "other": "This book uses plain language to explain the principles and methods behind these questions."
+  },
+  "ideas_eyebrow": {
+    "other": "A path through the book"
+  },
+  "ideas_title": {
+    "other": "From emptiness and stillness in wuji, through breathing in martial practice, to splitting fist—the heart of Sun Lutang’s approach to Daoist cultivation."
+  },
+  "idea_empty_label": {
+    "other": "Emptiness"
+  },
+  "idea_empty_line_one": {
+    "other": "The Dao follows nature; the one qi flows."
+  },
+  "idea_empty_line_two": {
+    "other": "Emptiness and stillness are hardest to find."
+  },
+  "idea_empty_description": {
+    "other": "Begin with emptiness and stillness, explore centeredness in the internal arts, and approach the idea of primordial qi."
+  },
+  "idea_empty_link": {
+    "other": "Read “Emptiness and Stillness” →"
+  },
+  "idea_breath_label": {
+    "other": "Breathing"
+  },
+  "idea_breath_line_one": {
+    "other": "Inhalation and exhalation contain each other."
+  },
+  "idea_breath_line_two": {
+    "other": "Qi rests; the pulse is still."
+  },
+  "idea_breath_description": {
+    "other": "Explore the author’s explanation of breathing in martial practice, its principles, and its methods."
+  },
+  "idea_breath_link": {
+    "other": "Read “When Inhalation and Exhalation Contain Each Other” →"
+  },
+  "idea_fist_label": {
+    "other": "Splitting fist"
+  },
+  "idea_fist_line_one": {
+    "other": "The way of Xingyiquan"
+  },
+  "idea_fist_line_two": {
+    "other": "is the study of Daoist cultivation."
+  },
+  "idea_fist_description": {
+    "other": "For Sun Lutang, Xingyiquan embodied his Daoist cultivation, and splitting fist was its heart. As he put it: “To become an immortal, master splitting fist.”"
+  },
+  "idea_fist_link": {
+    "other": "Read “To Become an Immortal, Practise Splitting Fist” →"
+  },
+  "excerpt_eyebrow": {
+    "other": "Open a page"
+  },
+  "excerpt_title": {
+    "other": "Practising also means learning to let go."
+  },
+  "excerpt_quote": {
+    "other": "“Because we are so used to tightening our control, giving up conscious control of the body is not easy. We need to notice that control, then release it, again and again. Like peeling an onion, each layer we let go reveals a little more of our true self.”"
+  },
+  "excerpt_source": {
+    "other": "From “Emptiness and Stillness”"
+  },
+  "excerpt_link": {
+    "other": "Continue reading →"
+  },
+  "contents_eyebrow": {
+    "other": "Inside the book"
+  },
+  "contents_title": {
+    "other": "From theory to practice, and from stories to understanding."
+  },
+  "contents_description": {
+    "other": "Xingyiquan provides the framework, followed by internal power, methods of cultivation, stories from the martial world, and practical questions."
+  },
+  "contents_link": {
+    "other": "View the reading guide →"
+  },
+  "author_eyebrow": {
+    "other": "A word before you begin"
+  },
+  "author_title": {
+    "other": "Years of practice, gathered into one small volume."
+  },
+  "author_description": {
+    "other": "Like many students of the martial arts, my path has been far from smooth. I have gathered my experience and reflections here in the hope that others can avoid some of the detours."
+  },
+  "author_link": {
+    "other": "Why I wrote this book →"
+  },
+  "purchase_eyebrow": {
+    "other": "Take the next step"
+  },
+  "purchase_title": {
+    "other": "Buy the book"
+  },
+  "closing_eyebrow": {
+    "other": "Start here"
+  },
+  "closing_title": {
+    "other": "Begin with one chapter."
+  },
+  "closing_description": {
+    "other": "Three selected chapters introduce the book’s language, illustrations, and way of thinking."
+  },
+  "closing_link": {
+    "other": "Browse the samples"
+  },
+  "cover_alt": {
+    "other": "Book cover: Unorthodox Martial Musings — Reflections on Internal Martial Arts, by Feng Mao"
+  },
+  "onion_alt": {
+    "other": "Illustration from the book: letting go, layer by layer, like peeling an onion"
+  },
+  "chapter_xingyi": {
+    "other": "Xingyiquan"
+  },
+  "chapter_power": {
+    "other": "Understanding Internal Power"
+  },
+  "chapter_sun": {
+    "other": "Methods of the Sun Tradition"
+  },
+  "chapter_breath": {
+    "other": "The Way of Breathing"
+  },
+  "chapter_levels": {
+    "other": "Stages of Martial Practice"
+  },
+  "chapter_stories": {
+    "other": "Stories from the Martial World"
+  },
+  "chapter_practice": {
+    "other": "Practical Questions"
+  },
+  "store_label": {
+    "other": "Taobao store"
+  },
+  "store_description": {
+    "other": "Look for the store “{{ .Store }}”. Contact the author to join the ebook discussion group, exchange ideas, and receive news of future revisions."
+  },
+  "store_button": {
+    "other": "Buy on Taobao"
+  },
+  "store_pending": {
+    "other": "Taobao store link coming soon"
+  },
+  "store_status": {
+    "other": "The Taobao store link will be added here."
+  },
+  "contact_douyin": {
+    "other": "Douyin"
+  },
+  "contact_douyin_id": {
+    "other": "Douyin ID: "
+  },
+  "contact_douyin_qr": {
+    "other": "View the Douyin QR code"
+  },
+  "contact_douyin_alt": {
+    "other": "Douyin QR code for 不正经拳论, ID 52017837517"
+  },
+  "contact_douyin_hint": {
+    "other": "Scan with Douyin, or search for the account ID."
+  },
+  "contact_wechat": {
+    "other": "WeChat Official Account"
+  },
+  "contact_wechat_description": {
+    "other": "Reflections on martial principles and practice"
+  },
+  "contact_wechat_qr": {
+    "other": "View the WeChat QR code"
+  },
+  "contact_wechat_alt": {
+    "other": "WeChat Official Account QR code for 不正经拳论"
+  },
+  "contact_wechat_hint": {
+    "other": "Scan with WeChat to follow the account."
+  },
+  "contact_email": {
+    "other": "Email"
+  },
+  "contact_email_description": {
+    "other": "Feedback and discussion about the book"
+  },
+  "contact_email_pending": {
+    "other": "Email address coming soon"
+  },
+  "contact_email_hint": {
+    "other": "Questions and suggestions are welcome."
+  },
+  "footer_note": {
+    "other": "Feng Mao · Reflections on the Internal Martial Arts · Revisions ongoing"
+  }
+}

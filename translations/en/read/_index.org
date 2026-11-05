@@ -1,0 +1,7 @@
+{
+  "title": "Sample chapters",
+  "description": "Read three chapters and see whether this book speaks to you.",
+  "summary": "Read three chapters and see whether this book speaks to you."
+}
+
+These chapters are selected from /An Unconventional Treatise on Martial Arts/. They move from emptiness and stillness, through breathing in martial practice, to splitting fist. The author’s explanations and experiences should be understood in the context of the whole book.

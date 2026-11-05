@@ -1,0 +1,49 @@
+{
+  "title": "Reading guide",
+  "description": "What the book discusses, who it is for, and where to begin.",
+  "summary": "What the book discusses, who it is for, and where to begin.",
+  "ShowToc": true
+}
+
+/An Unconventional Treatise on Martial Arts: Reflections on the Internal Martial Arts/, by Feng Mao.
+
+This book is for readers with some knowledge of the internal martial arts and practical experience who want a deeper understanding of their principles. It focuses on principles and methods of cultivation. Specific forms and movements should be studied with an in-person teacher or relevant martial manuals.
+
+** Where to begin
+Begin with [[/en/read/kongjing/][“Emptiness and Stillness”]] to explore the author’s explanation of these terms. Continue with [[/en/read/breath_gap/][“When Inhalation and Exhalation Contain Each Other”]], then read [[/en/read/piquan_quanjia/][“To Become an Immortal, Practise Splitting Fist”]]. This takes you from emptiness and stillness in wuji, through breathing, to Sun-style splitting fist.
+
+** The book’s seven parts
+*** 1. Xingyiquan
+Wuji posture, the three-body posture, splitting fist, and other practices provide a route into the principles of movement, alignment, and awareness.
+
+[[/en/read/piquan_quanjia/][Read “To Become an Immortal, Practise Splitting Fist” →]]
+
+*** 2. Understanding internal power
+Exploring internal power from different angles, with the author’s observations and practical experience.
+
+*** 3. Methods of the Sun tradition
+The methods of the Sun tradition, discussed through teachings received from teachers and the writings of earlier masters.
+
+*** 4. The way of breathing
+Breathing and its relationship to practice, with attention to the context behind different descriptions.
+
+[[/en/read/breath_gap/][Read “When Inhalation and Exhalation Contain Each Other” →]]
+
+*** 5. Stages of martial practice
+The author’s reflections on understanding the arts and developing through practice.
+
+*** 6. Stories from the martial world
+Stories and encounters, and what they can teach us about practice.
+
+*** 7. Practical questions
+Observations, questions, and insights arising from specific problems in practice.
+
+** What this website offers
+The website currently offers three sample chapters, a reading guide, and an introduction to the author. The manuscript is still being revised, and the samples may be updated with it.
+
+The book is sold through the Taobao store “不正经拳铺”. Please consult the store for current prices, editions, and delivery details. This website does not take orders directly or offer the complete book for public download.
+
+[[/en/read/][Browse the sample chapters →]]
+
+** Buy the book
+{{< purchase >}}

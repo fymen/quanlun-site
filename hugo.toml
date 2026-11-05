@@ -20,11 +20,13 @@ ShowBreadCrumbs = true
 ShowPostNavLinks = true
 ShowCodeCopyButtons = true
 ShowShareButtons = false
+displayFullLangName = true
 ShowToc = true
 TocOpen = false
 mainSections = ['read', 'articles']
 disableSpecial1stPost = true
-images = ['images/book-cover.png']
+images = ['images/book-cover.png?v=64b366f05f1a']
+bookCover = 'images/book-cover.png?v=64b366f05f1a'
 [params.assets]
 favicon = '/images/logo.png'
 [params.label]
@@ -39,36 +41,11 @@ keys = ['title', 'summary', 'content']
 home = ['HTML', 'RSS', 'JSON']
 [markup.goldmark.renderer]
 unsafe = false
-[[menus.main]]
-name = '精选试读'
-pageRef = '/read'
-weight = 10
-[[menus.main]]
-name = '全书导读'
-pageRef = '/book'
-weight = 20
-[[menus.main]]
-name = '关于作者'
-pageRef = '/about'
-weight = 30
-[[menus.main]]
-name = '搜索'
-pageRef = '/search'
-weight = 40
 
 [params.purchase]
 platform = "淘宝"
 store = "不正经拳铺"
 url = "https://e.tb.cn/h.jV04F9ZFZ6H2FxQ?tk=nowXTC5ebyZ HU287"
-
-[params.purchase.xianyu]
-platform = "闲鱼"
-url = "https://m.tb.cn/h.jeaDIyP?tk=hF3LTChLJQU CZ321"
-
-[[menus.main]]
-name = "购书"
-url = "/#purchase"
-weight = 25
 
 [params.contact]
 douyin_name = "不正经拳论"
@@ -77,3 +54,124 @@ douyin_qr = "/images/id_douyin.jpg"
 wechat_name = "不正经拳论"
 wechat_qr = "/images/id_wechat.jpg"
 email = "zuijiuru@gmail.com"
+
+[languages.zh]
+label = "简体中文"
+locale = "zh-CN"
+weight = 1
+contentDir = "content"
+title = "不正经拳论"
+hasCJKLanguage = true
+[languages.zh.params]
+title = "不正经拳论"
+author = "风茂"
+description = "内家拳研习心得。从空、静出发，深入探讨内家拳的“中”，以及这个“中”在拳中的应用。"
+[languages.zh.params.label]
+text = "不正经拳论"
+
+[[languages.zh.menus.main]]
+name = "精选试读"
+pageRef = "/read"
+weight = 10
+
+[[languages.zh.menus.main]]
+name = "全书导读"
+pageRef = "/book"
+weight = 20
+
+[[languages.zh.menus.main]]
+name = "购书"
+url = "/#purchase"
+weight = 25
+
+[[languages.zh.menus.main]]
+name = "关于作者"
+pageRef = "/about"
+weight = 30
+
+[[languages.zh.menus.main]]
+name = "搜索"
+pageRef = "/search"
+weight = 40
+
+[languages.zh-tw]
+label = "繁體中文"
+locale = "zh-TW"
+weight = 2
+contentDir = "translations/zh-tw"
+title = "不正經拳論"
+hasCJKLanguage = true
+[languages.zh-tw.params]
+bookCover = "images/book-cover-zh-Hant.png"
+images = ["images/book-cover-zh-Hant.png"]
+title = "不正經拳論"
+author = "風茂"
+description = "內家拳研習心得。從空、靜出發，深入探討內家拳的“中”，以及這個“中”在拳中的應用。"
+[languages.zh-tw.params.label]
+text = "不正經拳論"
+
+[[languages.zh-tw.menus.main]]
+name = "精選試讀"
+pageRef = "/read"
+weight = 10
+
+[[languages.zh-tw.menus.main]]
+name = "全書導讀"
+pageRef = "/book"
+weight = 20
+
+[[languages.zh-tw.menus.main]]
+name = "購書"
+url = "/#purchase"
+weight = 25
+
+[[languages.zh-tw.menus.main]]
+name = "關於作者"
+pageRef = "/about"
+weight = 30
+
+[[languages.zh-tw.menus.main]]
+name = "搜尋"
+pageRef = "/search"
+weight = 40
+
+[languages.en]
+label = "English"
+locale = "en-US"
+weight = 3
+contentDir = "translations/en"
+title = "An Unconventional Treatise on Martial Arts"
+hasCJKLanguage = false
+[languages.en.params]
+bookCover = "images/book-cover-en.png"
+images = ["images/book-cover-en.png"]
+title = "An Unconventional Treatise on Martial Arts"
+author = "Feng Mao"
+description = "Reflections on the internal martial arts: emptiness, stillness, centeredness, and their place in practice."
+[languages.en.params.label]
+text = "Unconventional Martial Arts"
+
+[[languages.en.menus.main]]
+name = "Sample chapters"
+pageRef = "/read"
+weight = 10
+
+[[languages.en.menus.main]]
+name = "Reading guide"
+pageRef = "/book"
+weight = 20
+
+[[languages.en.menus.main]]
+name = "Buy the book"
+url = "/#purchase"
+weight = 25
+
+[[languages.en.menus.main]]
+name = "About the author"
+pageRef = "/about"
+weight = 30
+
+[[languages.en.menus.main]]
+name = "Search"
+pageRef = "/search"
+weight = 40

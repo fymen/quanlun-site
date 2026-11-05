@@ -1,0 +1,7 @@
+{
+  "title": "Notes on practice",
+  "description": "Future articles and answers to readers’ questions.",
+  "summary": "Future articles and answers to readers’ questions."
+}
+
+New articles and answers to readers’ questions will be collected here. For now, begin with the [[/en/read/][three sample chapters]].

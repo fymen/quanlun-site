@@ -1,0 +1,38 @@
+{
+  "title": "To Become an Immortal, Practise Splitting Fist",
+  "description": "Splitting fist is the heart of Xingyiquan and, in the author’s account, the foundation of the three Sun arts.",
+  "summary": "Splitting fist is the heart of Xingyiquan and, in the author’s account, the foundation of the three Sun arts.",
+  "weight": 50,
+  "ShowToc": false
+}
+
+#+begin_quote
+*About this sample*: An English translation of a chapter from /An Unconventional Treatise on Martial Arts/ by Feng Mao. The discussion and experiences are the author’s own.
+#+end_quote
+
+Splitting fist is simply the transition between the left and right three-body postures. That transition is the essence of Xingyiquan, called rising and drilling, falling and overturning. Splitting fist is therefore also called the rising and falling of the one qi.
+
+Xingyiquan developed from Dai-family Xinyiquan. In the Dai family’s squatting-monkey posture, the body visibly rises and falls, extends and contracts. Their splitting fist is the squatting-monkey posture performed with stepping.
+
+In the development of Xingyi splitting fist, especially its Sun-style form, these visible movements of the body have disappeared. Rising and drilling, falling and overturning in the hands have taken their place.
+
+Yet this is precisely where Xingyiquan improves on Xinyiquan:
+
+1. With rising and falling in the hands, even if you do not develop skill, you are unlikely to damage yourself. Directly working the spine, on the other hand, can easily cause problems without a knowledgeable teacher.
+2. Using the rise and fall of the hands to lead the rise, fall, extension, and contraction within the body is a more refined method: the outside leads the inside, going straight to the heart of the matter.[fn:1]
+
+When practising Sun-style splitting fist, you must follow nature completely, without adding the slightest muscular effort. Carefully experience the subtle changes that the hand movements bring about inside the body. These changes are the extension, contraction, opening, closing, rising, and falling of the one qi.
+
+This is the secret of splitting fist’s role in nourishing health.
+
+One cycle of rising and drilling, falling and overturning in splitting fist is one circuit of circulation. It happens automatically and needs no deliberate interference. At first, as the hands rise and fall, you may feel a response in the waist, abdomen, and back: this is the small heavenly circuit. Later, you may feel a response from the soles of the feet to the crown of the head: this is the great heavenly circuit.
+
+Splitting fist directly sets this circulation—the movement of the one qi—in motion. There is no need to study how to turn the waterwheel or pass the three gates. Simply practise the art. Its effects on nourishing health cannot be compared with the various mental, superficial, or so-called alchemical circuits commonly taught.
+
+In /The True Meaning of Martial Arts/, Sun Lutang wrote: “The way of Xingyiquan is the study of Daoist cultivation.” He stated plainly that Sun-style Xingyiquan is Daoist cultivation. Yet people do not believe it. They imagine that Daoist cultivation must be superior to martial arts, preferring rumours and all sorts of questionable methods of cultivation to practising properly.
+
+Sun Lutang’s transmission of Daoist cultivation is Xingyiquan, and the heart of Xingyiquan is splitting fist.
+
+That is why he said: “To become an immortal, master splitting fist.”
+
+[fn:1] I discuss this fully in “Harmonising the Light and Mingling with the Dust” (see the corresponding chapter in the complete book).

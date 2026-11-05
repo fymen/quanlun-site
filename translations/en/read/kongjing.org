@@ -1,0 +1,93 @@
+{
+  "title": "Emptiness and Stillness",
+  "description": "The author explores emptiness and stillness as practical qualities in the internal arts, with roles in health and martial application.",
+  "summary": "The author explores emptiness and stillness as practical qualities in the internal arts, with roles in health and martial application.",
+  "weight": 10,
+  "ShowToc": false
+}
+
+#+begin_quote
+*About this sample*: An English translation of a chapter from /An Unconventional Treatise on Martial Arts/ by Feng Mao. The discussion and experiences are the author’s own.
+#+end_quote
+
+In martial arts, “emptiness” does not mean that no forces act on the body. It means that the body bears forces in an overall balance: they are distributed evenly in every direction and ultimately balance one another out.
+
+Think of a fully inflated balloon. Because the forces acting on it are full and balanced, it seems as though it is “not bearing force”. This is why we also call that apparent absence of force “emptiness”.
+
+Not bearing force in this sense means bearing it fully. Only when the forces are sufficiently complete and balanced do we reach what martial arts call “emptiness”.
+
+The mind does not try to control the body; it simply perceives its changes. This is “stillness” in martial arts.
+
+In the Sun arts, “emptiness and stillness” take a more concrete form in the method: “Let the body be an axis; let the mind be a mirror.”
+
+In wuji standing, an axis must emerge. It must not be lost in subsequent practice. In the Sun tradition, this is called “not losing the axis”.
+
+The defining feature of an axis is that it does not bear force. Since we say that “not bearing force is emptiness”, the axis is empty.
+
+A familiar example is a door’s axis. In a hotel’s revolving door, the leaves have equal weight and face opposite directions, so the forces they exert on the central axis cancel one another. The leaves are heavy, yet the axis is not bearing a net force. If that central axis were to bear even a little unbalanced force, the door could not stand properly.
+
+Or consider the axle of a bicycle wheel. The spokes exert forces on it from every direction, and these cancel at the axle, allowing it to remain stable. The axle does not actively pull on any particular spoke, either. It bears force fully while appearing not to bear it: it is “empty”.
+
+As Laozi put it: “Thirty spokes share one hub; its empty space makes the wheel useful.”[fn:1] The hub must be “empty” for the wheel to work. The same applies to martial arts: our bodies must become “empty”, become “nothing”, before they can truly function.
+
+The human body, however, is a complex living structure. It is not simply like a door pivot or bicycle axle that becomes empty through balanced forces alone. Its nature is closer to a spinning top or a typhoon.
+
+In a rapidly spinning top, centrifugal force pulls at the axis from all directions. The resulting net force at the axis is zero, so the centre is not bearing force either.
+
+#+caption: The eye of a typhoon
+#+attr_html: :alt The eye of a typhoon
+[[/images/typhoon-eye.png]]
+
+A typhoon rages, yet its eye remains calm. The eye is its central axis.
+
+The key to forming this axis in wuji standing is the spiralling that naturally emerges: from outside inward, from the surface into the depths, and from back to front. “Outside inward” includes the heels turning outward while the big toes turn inward, the shoulders rotating outward while the arms rotate inward, and similar movements that open to the sides and turn back toward the centre. “Surface into the depths” means that the spiralling passes from superficial muscles and fascia into deeper layers throughout the body. Together, these are the Sun tradition’s important method of “opening within and closing without”. When this is in place, breathing naturally leads the spiralling from back to front: what is commonly called the small heavenly circuit. When every part of the body spirals spontaneously, this is what is commonly called the great heavenly circuit.[fn:2]
+
+The spiralling is continuous. It is not a fixed, stable structure; it can keep turning, and so it can produce “emptiness”. The emptiness of the axis gained through wuji standing is therefore not imagined. It emerges when the posture is correct and the whole body naturally spirals.
+
+This is what the Sun tradition means by “let the body be an axis”. Only an axis that emerges naturally through spiralling can be free of bearing force, and therefore “empty”.
+
+As for achieving “stillness” in martial arts, different schools offer many methods: counting breaths, reciting mantras, contemplating a meditation question, meditating, and so on.
+
+All of these begin with deliberate activity. The Sun tradition starts directly from non-doing. The mind does not try to control the body, nor does it engage in imagery or imagined intention. It simply perceives what is happening within and around the body.
+
+At first, drawing the attention back to perceive the body’s internal and external changes can be difficult, especially for younger people with restless temperaments.
+
+Do not deliberately bind your attention to yourself. It is normal for thoughts to arise. Do not resist their coming or cling to their departure.
+
+When you notice that your mind is full of wandering thoughts, you have already stepped outside their control. Otherwise, you would merely be carried along by them, without noticing their arrival and departure.
+
+Do not judge a session by whether you had thoughts or how many appeared. When you notice that you have followed a thought away, gently return to the present and continue to perceive what you feel within and around the body. There is no need to blame yourself or rush to drive thoughts away. Make friends with them.
+
+As skill develops, wandering thoughts have less influence over you, and they do not arise so frequently.
+
+Having no wandering thoughts does not mean that there are literally no thoughts in the mind. That is impossible. Even a highly skilled person has one thought after another. With skill, though, one can be like an outside observer, allowing thoughts to come and go without being moved by them. Perhaps only a Buddha can have no thought arise at all. We ordinary people need not demand that of ourselves.
+
+Our awareness is like a mirror, reflecting every detail of what we feel within and around the body, while allowing it all to happen without interference.
+
+This is the Sun tradition’s “let the mind be a mirror”. The mirror simply rests there, doing nothing.
+
+Here, “mind” means spirit or awareness, also described as “spirit like a bright mirror”: awareness is like a mirror hanging in the sky, as radiant as the sun, illuminating everything within and without. Hence the expression “clarity within and without”.
+
+Because we are so used to tightening our control, giving up conscious control of the body is not easy. We need to notice that control, then release it, again and again. Like peeling an onion, each layer we let go reveals a little more of our true self.
+
+#+caption: Letting go, layer by layer, reveals the true self
+#+attr_html: :alt Letting go, layer by layer, reveals the true self
+[[/images/onion-true-self.png]]
+
+Body and mind are one. As our bodily axis becomes a little emptier, our awareness can become a little stiller, and vice versa.
+
+Emptiness and stillness deepen and reinforce one another, gradually bringing body and mind into a state that is empty, yet not truly empty.
+
+In Buddhist terms: “Empty, yet not empty; not empty, yet empty.”
+
+Laozi speaks of “non-doing, yet nothing left undone”. This is not absolute inactivity. It is through non-doing that nothing is left undone.
+
+Zhuangzi says: “Everyone knows the usefulness of the useful; no one knows the usefulness of the useless.” It is not a matter of not using something at all. It is using it so fully and appropriately that you do not feel its use.
+
+Confucian teaching speaks of attaining centeredness and harmony: “Before joy, anger, sorrow, and delight arise, this is called centeredness; when they arise in due measure, this is called harmony.”
+
+Sun Lutang said that martial arts accord with the Dao and with the principles of Confucianism, Buddhism, and Daoism. This is how they come together.
+
+[fn:1] See chapter 11 of the /Daodejing/.
+
+[fn:2] The Sun arts contain no specific method for practising the small or great heavenly circuits. These are phenomena that emerge naturally after long practice. Do not deliberately pursue them.

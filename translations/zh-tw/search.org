@@ -1,0 +1,8 @@
+---
+title: "搜索本書網站"
+layout: "search"
+summary: "搜索精選試讀、導讀和作者介紹。"
+placeholder: "搜索空、靜、中、平衡……"
+---
+
+

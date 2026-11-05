@@ -1,0 +1,9 @@
+{
+  "title": "Search the book website",
+  "description": "Search the sample chapters, reading guide, and author introduction.",
+  "summary": "Search the sample chapters, reading guide, and author introduction.",
+  "layout": "search",
+  "placeholder": "Search emptiness, stillness, breathing…"
+}
+
+

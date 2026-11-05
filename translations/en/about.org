@@ -1,0 +1,38 @@
+{
+  "title": "About the author and the book",
+  "description": "Why I wrote these reflections on the internal martial arts.",
+  "summary": "Why I wrote these reflections on the internal martial arts.",
+  "ShowToc": false
+}
+
+** Feng Mao
+Author of /An Unconventional Treatise on Martial Arts: Reflections on the Internal Martial Arts/ and a fourth-generation practitioner of the Sun martial tradition.
+
+** Why I wrote this book
+The internal martial arts are a treasure within traditional Chinese culture.
+
+Yet the traditional martial world is also a tangled mixture of people and claims, with truth and falsehood hard to distinguish. Finding something useful in it can feel almost impossible.
+
+Students often struggle even to find the entrance.
+
+After years of practice and many setbacks, I have written down what I have learned in the hope that those who come later can avoid some of the detours.
+
+This book gathers questions that arise in practice. It uses relatively plain language to explain the principles and methods in the old martial manuals, drawing on both the masters’ writings and my own experience to explore the internal arts.
+
+** What the book explores
+The book begins with emptiness and stillness, moves into the idea of /zhong/, or centeredness, and introduces the Sun tradition’s method: “Let the body be an axis; let the mind be a mirror.” From there, it opens onto the three Sun arts: Xingyiquan, Taijiquan, and Baguazhang.
+
+** Who it is for
+1. People in poor health looking for an effective approach to exercise that is less prone to going wrong.
+2. Dedicated martial artists who want to understand the internal arts more deeply.
+3. Practitioners interested in the relationship between martial arts and the Dao.
+
+The book focuses on principles and methods of cultivation. For specific forms and movements, please also work with an in-person teacher and consult the writings of earlier masters.
+
+[[/en/read/][Read the sample chapters →]]
+
+** Contact the author
+:PROPERTIES:
+:CUSTOM_ID: contact
+:END:
+{{< author_contacts >}}
