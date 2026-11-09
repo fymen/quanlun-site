@@ -44,7 +44,7 @@ unsafe = false
 
 [params.purchase]
 platform = "淘宝"
-store = "不正经拳铺"
+store = "不正经拳社"
 url = "https://quanlun.taobao.com/"
 qr_code = "images/taobao-qr.png"
 

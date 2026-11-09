@@ -18,7 +18,7 @@ html:lang(en) .hero-book>p{letter-spacing:0;line-height:1.8}
 .purchase-section{padding:65px 24px 75px;border-top:1px solid var(--border)}.purchase-store{font-size:19px;margin:22px 0 10px}.purchase-store strong{font-family:var(--serif);font-weight:600;color:var(--accent);margin-left:8px}.purchase-description{color:var(--secondary);line-height:1.8;margin-bottom:24px}.purchase-status{font-size:13px;color:var(--secondary);margin-top:12px}.book-button.purchase-pending:disabled{background:#e4ddd0;color:#666055!important;cursor:not-allowed}.post-content .purchase-details p{margin:12px 0}.post-content .purchase-details .book-button{box-shadow:none;margin:10px 0}@media(max-width:760px){.purchase-section{padding:45px 4px}}
 
 /* 淘宝店铺二维码样式 */
-.purchase-qr{margin-top:24px;text-align:center}.purchase-qr img{width:160px;height:160px;border-radius:4px;background:#f5f5f5;box-shadow:0 2px 8px rgba(0,0,0,.08)}.purchase-qr-hint{font-size:13px;color:var(--secondary);margin-top:10px;line-height:1.6}
+.purchase-qr{margin-top:20px;text-align:center}.purchase-qr img{width:160px;height:160px;border-radius:4px;background:#f5f5f5;box-shadow:0 2px 8px rgba(0,0,0,.08)}.purchase-qr-hint{font-size:13px;color:var(--secondary);margin-top:10px;line-height:1.6}
 
 /* PC 端：二维码默认隐藏，hover 时显示 */
 @media(min-width:761px){.purchase-qr{display:none}.purchase-section:hover .purchase-qr{display:block}}
