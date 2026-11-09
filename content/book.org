@@ -78,4 +78,6 @@ ShowToc: true
 :PROPERTIES:
 :CUSTOM_ID: 购书
 :END:
+<div class="purchase-section" id="purchase">
 {{< purchase >}}
+</div>
