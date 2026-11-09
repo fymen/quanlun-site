@@ -191,6 +191,9 @@
   "store_status": {
     "other": "淘宝店铺链接将在此更新。"
   },
+  "scan_qr_hint": {
+    "other": "打开手机淘宝扫一扫"
+  },
   "contact_douyin": {
     "other": "抖音"
   },

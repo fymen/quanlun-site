@@ -46,6 +46,7 @@ unsafe = false
 platform = "淘宝"
 store = "不正经拳铺"
 url = "https://quanlun.taobao.com/"
+qr_code = "images/taobao-qr.png"
 
 [params.contact]
 douyin_name = "不正经拳论"

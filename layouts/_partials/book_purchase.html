@@ -7,9 +7,12 @@
     {{- end }}
     {{- with $store.url }}
     <a class="book-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ i18n "store_button" }} <span aria-hidden="true">↗</span></a>
-    {{- else }}
-    <button class="book-button purchase-pending" type="button" disabled aria-describedby="purchase-status">{{ i18n "store_pending" }}</button>
-    <p class="purchase-status" id="purchase-status">{{ i18n "store_status" }}</p>
+    {{- end }}
+    {{- with $store.qr_code }}
+    <div class="purchase-qr">
+      <img src="{{ . | relURL }}" alt="淘宝店铺二维码" class="qr-image">
+      <p class="qr-hint">{{ i18n "scan_qr_hint" }}</p>
+    </div>
     {{- end }}
   </div>
 </div>
